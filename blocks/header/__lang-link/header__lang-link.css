@@ -1,0 +1,14 @@
+.header__lang-link {
+  line-height: 28px;
+  font-size: 18px;
+  font-style: bold;
+  color: #ffffff;
+  margin: 0;
+  list-style: none;
+  }
+.header__lang-link:nth-child(1){
+  margin-right: 18px;
+}
+
+
+
