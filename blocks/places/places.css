@@ -3,8 +3,8 @@
   margin: 0 auto;
   display: grid;
   gap: 80px;
-  padding-top: 92px;
-  padding-bottom: 92px;
+  margin-top: 92px;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,7 +17,9 @@
   .places {
     gap: 73px;
     max-width: 93.75%;
-    padding-top: 88px;
+    margin-top: 88px;
+    margin-bottom: 90px;
+
   }
 }
 
@@ -30,8 +32,8 @@
 @media screen and (max-width: 320px) {
   .places {
     gap: 50px;
-    padding-bottom: 64px;
-    padding-top: 64px;
+    margin-bottom: 66px;
+    margin-top: 64px;
 
   }
 }

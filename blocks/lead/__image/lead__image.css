@@ -1,7 +1,7 @@
 .lead__image{
   max-width: 984px;
   min-height: 615px;
-  background-size: cover;
+  background-size: contain;
   text-decoration: none;
   margin-top: 0;
   margin-left: auto;
@@ -28,5 +28,6 @@
   .lead__image{
     max-width: 320px;
     min-height: 200px;
+
   }
 }
