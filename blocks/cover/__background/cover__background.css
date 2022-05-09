@@ -11,7 +11,7 @@
   flex-direction: column;
   position: relative;
   margin:0 auto;
-
+  object-fit: cover;
 }
 .cover__background::after{
   content: '';
@@ -45,8 +45,7 @@
 
 @media screen and (max-width: 767px) {
   .cover__background {
-    max-width: 320px;
-    min-height: 200px;
+    width: 100%;
     margin:0 auto;
   }
 }
