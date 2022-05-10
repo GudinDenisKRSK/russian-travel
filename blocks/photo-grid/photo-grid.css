@@ -1,5 +1,5 @@
 .photo-grid{
-  max-width: 92.5%;
+  max-width: calc(100%-96px);;
   margin-left: 48px;
   margin-right: 48px;
   margin-top: 92px;
@@ -10,16 +10,14 @@
 }
 @media screen and (max-width: 1279px) {
   .photo-grid {
-    max-width: 72.556685%;
+    max-width: calc(100%-96px);;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 48px;
-    margin-right: 48px;
-  }
+    }
 }
 
 @media screen and (max-width: 1023px) {
   .photo-grid {
-    max-width: 70.381232%;
+    max-width: calc(100%-48px);
     grid-template-columns: repeat(2, 1fr);
     margin: 88px 24px;
   }
